@@ -16,9 +16,13 @@ Unless you’ve been living under a rock for the past decade, you’ve no doubt 
 In this article, I’ll explain:
 
 -Basics of Bitcoin
+
 -What Blockchain is and how it allows Bitcoin to operate
+
 -How Blocks get added to the chain
+
 -How the Blockchain is validated
+
 -Bitcoin mining vs. investing in 2021
 
 Feel free to scroll to the bottom for a TL;DR summary, and if you like the article please give it some claps!
@@ -86,10 +90,16 @@ In my view, unless you are very serious about mining bitcoin and are prepared to
 ### TL;DR
 
 -Bitcoin operates via a blockchain, which is essentially a decentralized database of all transactions made with bitcoin that is publicly validated and updated in real time
+
 -When a transaction is made, all the necessary data needed to validate the transaction without identifying the parties involved is added as a “block” to a transaction pool
+
 -For the transaction, or block, to be approved and added to the blockchain, it must be mined
+
 -Bitcoin miners competitively mine blocks by solving complicated math problems which require immense amounts of computational power. The first miner to solve the problem gets a certain amount of bitcoin as a reward, and the transaction is approved and added to the blockchain
+
 -This mining process is a validation method called “Proof-of-Work” and it makes it nearly impossible for transactions to be tampered with, thereby eliminating fraud
+
 -The larger a network is (AKA the more nodes that are added to the network) the more secure it is
+
 -Today it isn’t profitable to start mining bitcoin unless you are very serious about it and willing to invest a large amount of capital upfront. It is much easier to simply buy bitcoin, and right now (February 2021) is a great time to do so as Bitcoin is seeing very high returns
 

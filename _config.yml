@@ -6,27 +6,23 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "Lancer - Jekyll Minimal Personal Portfolio Template"
+title: "Jesse Pound"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "Lancer is a Responsive One Page Personal Template for creative people. Lancer can be used for many purposes starting from minimal portfolios, freelancers, photography and much more."
+description: "Jesse Pound is an entrepreneur, engineer, and environmentalist. She is the co-founder of Vunatec where she is working to support smallholder Kenyan farmers to prevent post-harvest food waste and maximize their income."
 
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl: 
-# baseurl: https://beingeorge.com/lancer-jekyll
+# baseurl: https://jessepound
 
 navigation:
 - text: Home
   url: /#home
 - text: about
   url: /#about
-- text: services
-  url: /#services
-- text: Works
+- text: portfolio
   url: /#portfolio
-- text: Blog
-  url: /#blog
 - text: Contact
   url: /#contact
 
@@ -34,13 +30,13 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://beingeorge.com"
+url: "https://jessepound.com"
 
 # The shortname for your Disqus site to enable comments.
 disqus:
 
 # Author information - author info at the bottom of the post
-author_name: "ELLEN DOE"
+author_name: "JESSE POUND"
 
 # Social links in the site footer
 twitter_username: "username"

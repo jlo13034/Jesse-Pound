@@ -1,0 +1,32 @@
+---
+layout: default
+title: Photo Gallery
+permalink: /gallery/
+---
+
+<section id="gallery" class="module">
+    <div class="container">
+        <div class="module-header wow fadeInUp">
+            <h2 class="module-title">Photo Gallery</h2>
+            <div class="module-line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="gallery-grid">
+                    <li><img src="{{site.baseurl}}/assets/images/gallery1.jpg" alt="Photo 1"></li>
+                    <li><img src="{{site.baseurl}}/assets/images/gallery2.jpg" alt="Photo 2"></li>
+                    <li><img src="{{site.baseurl}}/assets/images/gallery3.jpg" alt="Photo 3"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Optional CSS for Gallery -->
+<style>
+.gallery-grid { display: flex; flex-wrap: wrap; list-style: none; padding: 0; }
+.gallery-grid li { margin: 10px; }
+.gallery-grid img { width: 200px; cursor: pointer; transition: 0.3s; }
+.gallery-grid img:hover { transform: scale(1.1); }
+</style>

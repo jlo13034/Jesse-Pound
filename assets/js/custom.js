@@ -146,3 +146,9 @@ if ($('.youtube-bg').length > 0) {
 
 
 })(jQuery);
+
+$(document).ready(function() {
+    $('.popup-link').magnificPopup({
+        type: 'iframe'
+    });
+});

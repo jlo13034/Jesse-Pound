@@ -71,3 +71,32 @@
       display: none;
       font-weight: 500;
     }
+  </style>
+</head>
+<body>
+  <h1>Join My Newsletter</h1>
+  <p>Want updates from Jesse in your inbox? Sign up below and I’ll keep you in the loop. No spam, ever.</p>
+
+  <form id="email-form"
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfCARrS2H3tSaGnYqJObtlsxrFQLWc1cBAcJMPA7dff4fe1jQ/formResponse"
+        method="POST"
+        target="hidden_iframe"
+        onsubmit="showMessage()">
+    <input type="email" name="entry.1804489872" placeholder="you@example.com" required />
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <p class="thanks" id="thank-you">Thank you! Stay tuned for email updates coming soon.</p>
+
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+  <script>
+    function showMessage() {
+      document.getElementById("thank-you").style.display = "block";
+      setTimeout(() => {
+        document.getElementById("email-form").reset();
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
